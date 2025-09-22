@@ -44,6 +44,10 @@ Currently, clients must initialize a connection to an MCP server to obtain serve
 
 Establishing officially endorsed extensions to MCP. Patterns are emerging in the MCP ecosystem that are highly relevant to specific use cases or industry domains. The project will document the most widely adopted extensions and those best suited for particular areas as official _Extensions to MCP_ to encourage broader ecosystem adoption.
 
+### SDK Support Standardization
+
+Introducing a tiering system for MCP SDKs to provide clarity to developers about support levels and maintenance quality. This standardization will be based on factors including specification compliance speed, maintenance responsiveness, and feature completeness. The tiering framework will help users make informed decisions when selecting SDKs for their projects while establishing clear expectations for different levels of support.
+
 ## Call for Contributors
 
 The project welcomes contributors, both individuals and companies. Contributions are particularly needed in several key areas:
