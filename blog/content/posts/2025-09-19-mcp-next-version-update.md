@@ -61,7 +61,7 @@ The project welcomes contributors, both individuals and companies. Contributions
 ### Tooling
 
 - **Inspector** - Development and maintenance of debugging tools
-- **Registry** - Backend and frontend development for the server registry
+- **Registry** - Backend API and CLI development for the server registry; in particular, Go expertise would be very welcome
 
 ## Input from Client Implementors
 
