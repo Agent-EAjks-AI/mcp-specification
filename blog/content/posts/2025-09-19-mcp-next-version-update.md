@@ -67,7 +67,7 @@ The project welcomes contributors, both individuals and companies. Contributions
 
 We particularly value feedback from teams implementing widely used MCP clients. Your experience and requirements are crucial for shaping the protocol's evolution.
 
-Client implementors are invited to join the client implementors working group the discussion on the [MCP Discord](https://modelcontextprotocol.io/community/communication).
+Client implementors are invited to join the `#client-implementors` working group channel in the [MCP Discord](https://modelcontextprotocol.io/community/communication).
 
 ---
 
