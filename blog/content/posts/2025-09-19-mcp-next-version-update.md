@@ -38,7 +38,7 @@ While Streamable HTTP supports stateless deployments of MCP servers, production 
 
 Implementing server identity through well-known URLs that expose server metadata, improving discovery and authentication mechanisms.
 
-Currently, clients must initialize a connection to an MCP server to obtain server information. This requirement complicates discovery for clients and crawlers (such as registry systems). The planned implementation will use the standardized .well-known format, allowing server authors to expose MCP server information in a static, cacheable, and easily discoverable manner.
+Currently, clients must initialize a connection to an MCP server to obtain server information. This requirement complicates discovery for clients and crawlers (such as registry systems). The planned implementation will use the standardized [`.well-known` format](https://en.wikipedia.org/wiki/Well-known_URI), allowing server authors to expose MCP server information in a static, cacheable, and easily discoverable manner.
 
 ### Official Extensions
 
