@@ -15,10 +15,23 @@ The next version of the Model Context Protocol will be released on **November 25
 
 Over the summer months, we've focused on establishing foundations for the MCP ecosystem:
 
-- [**Formal governance structures**](https://modelcontextprotocol.io/community/governance) - Building sustainable decision-making processes for the protocol
-- [**Working groups**](https://github.com/modelcontextprotocol/modelcontextprotocol/blob/main/MAINTAINERS.md) - Organizing specialized teams to tackle specific protocol areas
-- [**Registry development**](https://blog.modelcontextprotocol.io/posts/2025-09-08-mcp-registry-preview/) - Progress on the MCP server registry infrastructure
-- **Adjacent projects** - Supporting tooling and ecosystem development
+### [Formal governance structures](https://modelcontextprotocol.io/community/governance)
+
+We established a formal governance model for MCP, including defined roles and decision-making mechanisms. Additionally, we developed the Specification Enhancement Proposal (SEP) process to provide clear guidelines for contributing specification changes and transparent decision-making procedures.
+
+This process is still in it's early phase and we working on making it smoother and faster.
+
+### [Working groups](https://modelcontextprotocol.io/community/working-interest-groups)
+
+We've established Working Groups and Interest Groups to foster community collaboration and drive the specification forward. These groups serve multiple purposes: they provide clear entry points for new contributors, empower community members to lead initiatives in their areas of expertise, and distribute ownership across the ecosystem rather than concentrating it among core maintainers.
+
+While our working group model is still evolving, we're actively developing governance structures that will grant these groups greater autonomy in decision-making and implementation. This distributed approach ensures the protocol can grow sustainably while maintaining quality and consistency across different focus areas.
+
+### [Registry development](https://blog.modelcontextprotocol.io/posts/2025-09-08-mcp-registry-preview/)
+
+We launched the MCP Registry in preview as an open catalog and API for publicly available MCP servers to improve discoverability across the ecosystem. This centralized infrastructure serves as a single source of truth for MCP servers while supporting both public and private sub-registries that organizations can customize for their specific needs.
+
+The registry represents a collaborative effort involving multiple companies and developers, with community-driven moderation mechanisms to maintain quality. While currently in preview mode, the registry provides standardized server distribution and discovery patterns that will expand server reach and help clients find servers more easily across the entire MCP ecosystem.
 
 These initiatives provide the foundation for MCP's continued development. The established governance model and working groups enable focused development on high-priority protocol improvements.
 
@@ -38,7 +51,7 @@ While Streamable HTTP supports stateless deployments of MCP servers, production 
 
 Implementing server identity through well-known URLs that expose server metadata, improving discovery and authentication mechanisms.
 
-Currently, clients must initialize a connection to an MCP server to obtain server information. This requirement complicates discovery for clients and crawlers (such as registry systems). The planned implementation will use the standardized [`.well-known` format](https://en.wikipedia.org/wiki/Well-known_URI), allowing server authors to expose MCP server information in a static, cacheable, and easily discoverable manner.
+Currently, clients must initialize a connection to an MCP server to obtain server information. This requirement complicates discovery for clients and crawlers (such as registry systems). The planned implementation will use the standardized .well-known format, allowing server authors to expose MCP server information in a static, cacheable, and easily discoverable manner.
 
 ### Official Extensions
 
@@ -60,7 +73,7 @@ The project welcomes contributors, both individuals and companies. Contributions
 
 ### Tooling
 
-- [**Inspector**](https://github.com/modelcontextprotocol/inspector) - Development and maintenance of debugging tools
+- [**Inspector**](https://github.com/modelcontextprotocol/inspector) - Maintainence of the MCP Inspector
 - **Registry** - Backend API and CLI development for the server registry; in particular, Go expertise would be very welcome
 
 ## Input from Client Implementors
@@ -68,8 +81,3 @@ The project welcomes contributors, both individuals and companies. Contributions
 We particularly value feedback from teams implementing widely used MCP clients. Your experience and requirements are crucial for shaping the protocol's evolution.
 
 Client implementors are invited to join the `#client-implementors` working group channel in the [MCP Discord](https://modelcontextprotocol.io/community/communication).
-
----
-
-_David Soria Parra_
-_Lead Core Maintainer, Model Context Protocol_
