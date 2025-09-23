@@ -54,9 +54,9 @@ The project welcomes contributors, both individuals and companies. Contributions
 
 ### SDK Maintenance
 
-- **TypeScript SDK** - Needs additional maintainers for feature development and bug fixes
-- **Swift SDK** - Requires attention for Apple ecosystem support
-- Other language SDKs welcome continued contributions
+- [**TypeScript SDK**](https://github.com/modelcontextprotocol/typescript-sdk) - Needs additional maintainers for feature development and bug fixes
+- [**Swift SDK**](https://github.com/modelcontextprotocol/swift-sdk) - Requires attention for Apple ecosystem support
+- [Other language SDKs](https://modelcontextprotocol.io/docs/sdk) welcome continued contributions
 
 ### Tooling
 
