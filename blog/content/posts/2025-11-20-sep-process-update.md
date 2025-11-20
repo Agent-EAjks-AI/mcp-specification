@@ -37,7 +37,7 @@ That's it. The PR number becomes the SEP number, discussion happens in one place
 
 ## What About Status?
 
-One notable change: **sponsors are now responsible for updating SEP status**. Instead of maintainers applying labels to issues, the sponsor updates the `Status` field directly in the SEP markdown file. This keeps the canonical state of the proposal in the file itself, versioned alongside the content.
+One notable change: **sponsors are now responsible for updating SEP status**. In addition to maintainers applying labels to the pull request, the sponsor updates the `Status` field directly in the SEP markdown file. This keeps the canonical state of the proposal in the file itself, versioned alongside the content.
 
 Status transitions work the same as before: `Draft` to `In-Review` to `Accepted` to `Final`, with the sponsor managing each transition as the proposal progresses.
 
