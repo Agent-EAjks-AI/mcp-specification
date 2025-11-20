@@ -15,8 +15,6 @@ When we introduced SEPs back in July, we chose GitHub issues as our starting poi
 
 **No version history.** Issues don't have the same revision tracking that files in a repository do. When a SEP evolves through review, it's difficult to see what changed and when.
 
-**Manual number assignment.** Maintainers had to assign SEP numbers, creating a small but unnecessary bottleneck.
-
 The new PR-based approach, inspired by [Python's PEP process](https://peps.python.org/), addresses all three.
 
 ## How It Works
@@ -37,13 +35,14 @@ That's it. The PR number becomes the SEP number, discussion happens in one place
 
 ## What About Status?
 
-One notable change: **sponsors are now responsible for updating SEP status**. In addition to maintainers applying labels to the pull request, the sponsor updates the `Status` field directly in the SEP markdown file. This keeps the canonical state of the proposal in the file itself, versioned alongside the content.
+One notable change: **sponsors are now responsible for updating SEP status**. In addition to applying labels to the pull request, the sponsor updates the `Status` field directly in the SEP markdown file. This keeps the canonical state of the proposal in the file itself, versioned alongside the content, while PR labels make it easy to filter and find SEPs by status.
 
 Status transitions work the same as before: `Draft` to `In-Review` to `Accepted` to `Final`, with the sponsor managing each transition as the proposal progresses.
 
 ## Existing SEPs
 
-If you have an open SEP as a GitHub issue, don't worry. Existing proposals can continue through their current workflow. However, we encourage new proposals to use the PR-based process going forward.
+If you have an open SEP as a GitHub issue, don't worry. Existing proposals can continue through their current workflow. However, we encourage new proposals to use the PR-based process going forward. We are moving all implemented SEPs
+into this new structure.
 
 ## Getting Started
 
