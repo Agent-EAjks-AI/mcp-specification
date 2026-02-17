@@ -421,6 +421,7 @@
               {
                 "group": "Draft",
                 "pages": [
+                  "community/seps/2093-resource-contents-metadata",
                   "community/seps/2149-working-group-charter-template"
                 ]
               }
